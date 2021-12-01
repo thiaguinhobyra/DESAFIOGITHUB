@@ -1,0 +1,27 @@
+Git e GitHub
+Comandos basicos de terminaL GITBASH
+	GERENCIAR PASTAS
+		cd							entrar e sair de diretorios
+		ls							listar diretorios
+		mkdir							criar
+		rm -rf							delete
+		ls -a							listar com ocultos
+		git init 						iniciar o git
+		echo > <nome file.est>					criar arquivo
+
+	GERENCIAR CONFIGURAÇÕES GIT
+		git config --global user.name <nome>			adiciona nome na configuraçao
+		git config --global user.email <email>			adiciona email na configuraçao
+		git config --global --unset user.name			exclui nome na configuraçao
+		git config --global --unset user.email			exclui email na configuraçao
+		git config --list					lista configuração
+
+	SUBIR ARQUIVOS PARA O REPOSITÓRIO:	
+		git clone https://github.com/python/cpython.git		clonar arquivo (download) para o repositorio local
+		git add . / git add -a					adicionar todos os arquivos ao repositorio
+		git status						verificar status
+		git commit -m "nome da alteração"			enviar alteração para repositorio
+		git pull						atualiar/download do container
+		git push origin master					enviar alteração para repositorio remoto
+		git remote -v						ver arquivos no github
+		git remote add origin <caminho remoto>			add arquivo ao github remotamente
